@@ -1,0 +1,37 @@
+Udemy GraphQL
+1) npm init -y   (crea archivo package.json)
+
+1.5) git init
+ignorar node_modules : crear archivo .gitignore  y escribir;  /node_modules
+
+2) npm install graphql (graphqltools)
+
+GraphQL Hello Oficial - Express GraphQL Server: https://graphql.org/graphql-js/running-an-express-graphql-server/
+2) npm install express express-graphql graphql --save
+
+GrapQl en Netlify:  https://css-tricks.com/building-serverless-graphql-api-in-node-with-express-and-netlify/
+2) npm i express express-graphql graphql body-parser serverless-http
+
+  
+3) Instalar Netlify Dev:
+npm i -g netlify-cli
+
+4) crear netlify.toml
+
+OJO hay que hacer un "fake" build: https://luetkemj.github.io/180505/netlify-lambdas-as-simple-as-possible
+
+[build]
+  command = "npm run build"      # your build command
+  publish = "./dist"             # where your production ready code lives AFTER your build command has run
+  functions = "./functions"      # where your production ready lambda functions live AFTER your build command has run
+
+
+5) CRear carpetas vacias , fucntions, dist. Crear archivo server en carpeta functions
+
+6) npm run build 
+7) netlify dev
+
+Tutorial 1) https://css-tricks.com/building-serverless-graphql-api-in-node-with-express-and-netlify/
+Tutorial 0) https://graphql.org/graphql-js/running-an-express-graphql-server/
+Tutorial 2) Por probar: https://malekbenz.com/blog/2016/07/01/Build-graphql-server-nodejs
+

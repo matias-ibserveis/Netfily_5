@@ -1,0 +1,26 @@
+// instruccion a ejcutar para evitar error de acceso:
+// Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
+// https://stackoverflow.com/questions/41117421/ps1-cannot-be-loaded-because-running-scripts-is-disabled-on-this-system
+
+// Tutorial (menos pasos "build"):
+// https://blog.postman.com/serverless-functions-the-fast-way/
+
+// Pasos "build" fake para que funcione todo:
+// https://luetkemj.github.io/180505/netlify-lambdas-as-simple-as-possible
+
+
+// Borra carpetas, crea y copia de nuevo, crea nueva carpeta dist
+//  "build": "rd /s /q dist && rd /s /q functions && md dist && Xcopy src\\functions functions\\"
+
+//1) npm run build
+//2) ntl dev
+
+
+// Comandos Linux en WIndows (para package único)
+// https://ourcodeworld.com/articles/read/615/learn-how-to-solve-the-npm-error-cp-is-not-recognized-as-an-internal-or-external-command-operable-program-or-batch-file
+// https://www.cygwin.com/
+
+
+// GIT IGNORE:  
+// git update-index --assume-unchanged <file>
+// https://stackoverflow.com/questions/4308610/how-to-ignore-certain-files-in-git
