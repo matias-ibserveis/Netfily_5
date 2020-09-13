@@ -22,7 +22,7 @@ var data = JSON.stringify({"query":"{  hello }"});
 
 var config = {
   method: 'post',
-  url: 'http://localhost:4000/graphql',
+  url: 'http://localhost:8888/.netlify/functions/7_server',
   headers: { 
     'Content-Type': 'application/json'
   },
