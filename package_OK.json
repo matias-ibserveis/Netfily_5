@@ -4,7 +4,7 @@
   "description": "hola mundo",
   "main": "hello.js",
   "scripts": {
-    "build": "rm -rf dist && rm -rf functions && cp -r src/functions functions && cp -r src dist"
+    "build": "rm -rf dist && rm -rf functions && cp -r src/functions functions && mkdir dist"
   },
   "author": "",
   "license": "ISC",
