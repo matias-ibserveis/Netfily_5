@@ -18,6 +18,7 @@
 
 // EN NETLIFY:  Actualizar Github project y ejecutar
 OJO: declarar carpeta "dist"  como Publish Directory    (allí se copian los archivos desde "src" con la instruccion npm run build)
+https://community.netlify.com/t/support-guide-i-ve-deployed-my-site-but-i-still-see-page-not-found/125/2
 
 
 // Comandos Linux en WIndows (para package único)
@@ -28,3 +29,11 @@ OJO: declarar carpeta "dist"  como Publish Directory    (allí se copian los arc
 // GIT IGNORE:  
 // git update-index --assume-unchanged <file>
 // https://stackoverflow.com/questions/4308610/how-to-ignore-certain-files-in-git
+
+
+
+Ejemplos functions  (exports.handler) para trabajar con NODE
+
+https://functions-playground.netlify.app/
+
+https://www.netlify.com/blog/2018/07/09/building-serverless-crud-apps-with-netlify-functions-faunadb/
