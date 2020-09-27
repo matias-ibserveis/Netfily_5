@@ -4,9 +4,9 @@
   "description": "hola mundo",
   "main": "hello.js",
   "scripts": {
-    "build": "rd /s /q dist && rd /s /q functions && md dist && Xcopy src\\functions functions\\"
+    "build": "rm -rf dist && rm -rf functions && cp -r src/functions functions && mkdir dist"
   },
-  "author": "m",
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.20.0",

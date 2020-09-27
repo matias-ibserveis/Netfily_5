@@ -16,6 +16,9 @@
 //2) ntl dev
 
 
+// EN NETLIFY:  Actualizar Github project y ejecutar
+
+
 // Comandos Linux en WIndows (para package único)
 // https://ourcodeworld.com/articles/read/615/learn-how-to-solve-the-npm-error-cp-is-not-recognized-as-an-internal-or-external-command-operable-program-or-batch-file
 // https://www.cygwin.com/
