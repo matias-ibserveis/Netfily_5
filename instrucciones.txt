@@ -17,6 +17,7 @@
 
 
 // EN NETLIFY:  Actualizar Github project y ejecutar
+OJO: declarar carpeta "dist"  como Publish Directory    (allí se copian los archivos desde "src" con la instruccion npm run build)
 
 
 // Comandos Linux en WIndows (para package único)
